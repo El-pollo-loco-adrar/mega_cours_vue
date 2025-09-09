@@ -1,56 +1,57 @@
 <template>
   <div>
-    <h1>Header</h1>
+    <div class="navbar bg-base-100 shadow-sm">
+  <div class="navbar-start">
+    <div class="dropdown">
+      <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /> </svg>
+      </div>
+      <ul
+        tabindex="0"
+        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
+        
+        <li><router-link to="/">Accueil</router-link></li>
+        <li>
+          <a>Parent</a>
+          <ul class="p-3">
+            <li><a>Exercices</a></li>
+            <li><a>Leçons</a></li>
+            <li><a>TP</a></li>
+          </ul>
+        </li>
+        <li><router-link to="/about">about</router-link></li>
+      </ul>
+    </div>
+    <router-link to="/" class="btn btn-ghost text-xl">Mon site de fou</router-link>
     
-    <p>Je suis un putain de header</p>
-    <input v-model="value" />
+  </div>
+  <div class="navbar-center hidden lg:flex">
+    <ul class="menu menu-horizontal px-1">
+      <li><router-link to="/">Accueil</router-link></li>
+      <li>
+        <details>
+          <summary>Parent</summary>
+          <ul class="p-3">
+            <li><a>Exercices</a></li>
+            <li><a>Leçons</a></li>
+            <li><a>TP</a></li>
+          </ul>
+        </details>
+      </li>
+      <li><router-link to="/about">about</router-link></li>
+    </ul>
+  </div>
+  <div class="navbar-end">
+    <a class="btn">Button</a>
+  </div>
+</div>
   </div>
 </template>
 
-<script setup lang='js'>
-import { computed, watch, onMounted, onUpdated, onBeforeUnmount } from 'vue'
-
-const props = defineProps({
-  // v-model
-  modelValue: {
-    default: '',
-  },
-});
-
-const emit = defineEmits({
-  // v-model event with validation
-  'update:modelValue': (value) => value !== null,
-});
-
-const value = computed({
-  get () {
-    return props.modelValue;
-  },
-  set (value) {
-    emit('update:modelValue', value);
-  },
-});
-
-const stopWatch = watch(
-  () => props.modelValue, async (_newValue, _oldValue) => {
-    // do something
-  },
-  {
-    immediate: true
-  }
-);
-
-onMounted(() => {
-});
-
-onUpdated(() => {
-});
-
-onBeforeUnmount(() => {
-  stopWatch();
-});
+<script setup>
+  import { RouterLink } from 'vue-router';
 
 </script>
 
-<style scoped lang="css">
+<style scoped>
 </style>
