@@ -13,6 +13,16 @@ const router = createRouter({
             path: '/about',
             name: 'About',
             component: () => import('../views/About.vue')
+        },
+        {
+            path: '/exercice',
+            name: 'exercice',
+            component: () => import('../views/exercices/index.vue')
+        },
+        {
+            path: '/dataBinding',
+            name: 'data',
+            component: () => import('../views/exercices/dataBinding.vue')
         }
     ]
 });

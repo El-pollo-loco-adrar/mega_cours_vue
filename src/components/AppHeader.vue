@@ -13,8 +13,8 @@
         <li><router-link to="/">Accueil</router-link></li>
         <li>
           <a>Parent</a>
-          <ul class="p-3">
-            <li><a>Exercices</a></li>
+          <ul class="p-2">
+            <li><router-link to="/exercice">Exercices</router-link></li>
             <li><a>Leçons</a></li>
             <li><a>TP</a></li>
           </ul>
@@ -31,8 +31,8 @@
       <li>
         <details>
           <summary>Parent</summary>
-          <ul class="p-3">
-            <li><a>Exercices</a></li>
+          <ul class="p-2">
+            <li><router-link to="/exercice">Exercices</router-link></li>
             <li><a>Leçons</a></li>
             <li><a>TP</a></li>
           </ul>
