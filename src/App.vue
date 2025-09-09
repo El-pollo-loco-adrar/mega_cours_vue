@@ -8,12 +8,15 @@
     </figure>
     <p>{{ tab }}</p>
     <p>{{ name }}</p>
-    <p>{{myFunction()}}</p>
+    <p>{{ myFunction() }}</p>
     <p>Steven est </p>
+    <p>{{ 1===1 ? 'non' : 'faux' }}</p>
 
     <input type="number" placeholder="choisis un nombre" v-model="nb1">
     <input type="number" placeholder="Choisis un 2ème" v-model="nb2">
     <p class="text-3xl">Le résultat est : {{ resultat }}</p>
+    
+    <p>{{ aleatoire() }}</p>
     
     <!-- <div class="card-body">
       <h2 class="card-title">Card Title</h2>
@@ -44,9 +47,13 @@ const nb2 = ref(0);
     return "Ma fonction est retournée";
   }
 
+
   //fonction d'addition
   const resultat = computed(() => nb1.value + nb2.value)
 
+  const aleatoire = () => {
+    return Math.random() < 0.5 ? 'Livre Boba Fett' : 'Livre de la Jungle';
+  }
 </script>
 
 <style scoped>
