@@ -9,9 +9,11 @@
     <p>{{ tab }}</p>
     <p>{{ name }}</p>
     <p>{{myFunction()}}</p>
+    <p>Steven est </p>
+
     <input type="number" placeholder="choisis un nombre" v-model="nb1">
     <input type="number" placeholder="Choisis un 2ème" v-model="nb2">
-    <p class="text-3xl">Le résultat est : {{ add(nb1, nb2) }}</p>
+    <p class="text-3xl">Le résultat est : {{ resultat }}</p>
     
     <!-- <div class="card-body">
       <h2 class="card-title">Card Title</h2>
