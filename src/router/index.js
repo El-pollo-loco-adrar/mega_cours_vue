@@ -56,8 +56,33 @@ const router = createRouter({
             path: '/watcherLesson',
             name: 'watcherLesson',
             component: () => import('../views/lecon/watcherLesson.vue')
+        },
+        {
+            path: '/two-way-binding',
+            name: 'two-way-binding',
+            component: () => import('../views/lecon/two-way-binding.vue')
+        },
+        {
+            path: '/event-binding',
+            name: 'event-binding',
+            component: () => import('../views/lecon/event-binding.vue')
+        },
+        {
+            path: '/text-interpolation',
+            name: 'text-interpolation',
+            component: () => import('../views/lecon/text-interpolation.vue')
+        },
+        {
+            path: '/attribute-binding',
+            name: 'attribute-binding',
+            component: () => import('../views/lecon/attribute-binding.vue')
+        },
+        {
+            path: '/inline-templating',
+            name: 'inline-templating',
+            component: () => import('../views/lecon/inline-templating.vue')
         }
-    ]
+        ]
 });
 
 export default router;

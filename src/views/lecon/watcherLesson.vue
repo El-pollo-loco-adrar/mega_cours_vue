@@ -136,7 +136,7 @@
 </template>
 
 <script setup>
-// import { ref, watch } from 'vue';
+import { ref, watch } from 'vue';
 
 // Exemple 1 : Surveillance d'un compteur
 const counter = ref(0);
