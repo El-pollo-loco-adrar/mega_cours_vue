@@ -14,7 +14,7 @@
       404
     </h1>
     <p class="text-2xl mt-4 mb-8 opacity-90 animate-pulse z-10 text-center">
-      🎶 Les serviettes, les serviettes ... 🎶
+      🎶 Les sardines les sardines ...🎶
     </p>
 
     <!-- Boutons -->

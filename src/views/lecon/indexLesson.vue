@@ -6,6 +6,7 @@
   <RouterLink to="/event-binding"><button class="btn btn-wide">Event Binding</button></RouterLink>
   <RouterLink to="/text-interpolation"><button class="btn btn-wide">Text interpolation</button></RouterLink>
   <RouterLink to="/watcherLesson"><button class="btn btn-wide">Watcher</button></RouterLink>
+  <RouterLink to="/dynamic-styling"><button class="btn btn-wide">Dynamic Styling</button></RouterLink>
 
 </template>
 

@@ -86,6 +86,11 @@ const router = createRouter({
             path: '/inline-templating',
             name: 'inline-templating',
             component: () => import('../views/lecon/inline-templating.vue')
+        },
+        {
+            path: '/dynamic-styling',
+            name: 'dynamic-styling',
+            component: () => import('../views/lecon/dynamic-styling.vue')
         }
         ]
 });
