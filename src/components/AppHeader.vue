@@ -14,7 +14,7 @@
         <li>
           <a>Parent</a>
           <ul class="p-2">
-            <li><router-link to="/exercice">Exercices</router-link></li>
+            <li><router-link to="/indexExercice">Exercices</router-link></li>
             <li><a>Leçons</a></li>
             <li><a>TP</a></li>
           </ul>
@@ -32,7 +32,7 @@
         <details>
           <summary>Parent</summary>
           <ul class="p-2">
-            <li><router-link to="/exercice">Exercices</router-link></li>
+            <li><router-link to="/indexExercice">Exercices</router-link></li>
             <li><a>Leçons</a></li>
             <li><a>TP</a></li>
           </ul>
@@ -49,7 +49,7 @@
 </template>
 
 <script setup>
-  import { RouterLink } from 'vue-router';
+  
 
 </script>
 

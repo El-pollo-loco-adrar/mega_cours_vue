@@ -15,14 +15,24 @@ const router = createRouter({
             component: () => import('../views/About.vue')
         },
         {
-            path: '/exercice',
-            name: 'exercice',
-            component: () => import('../views/exercices/index.vue')
+            path: '/indexExercice',
+            name: 'indexExercice',
+            component: () => import('../views/exercices/indexExercices.vue')
         },
         {
             path: '/dataBinding',
             name: 'data',
             component: () => import('../views/exercices/dataBinding.vue')
+        },
+        {
+            path: '/von',
+            name: 'vonExercice',
+            component: () => import('../views/exercices/vOnExercice.vue')
+        },
+        {
+            path: '/von2',
+            name: 'vonExercice2',
+            component: () => import('../views/exercices/vOnExercice2.vue')
         }
     ]
 });
