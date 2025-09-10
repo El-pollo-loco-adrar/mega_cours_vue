@@ -14,6 +14,7 @@ const router = createRouter({
             name: 'About',
             component: () => import('../views/About.vue')
         },
+        //Exercices
         {
             path: '/indexExercice',
             name: 'indexExercice',
@@ -33,6 +34,28 @@ const router = createRouter({
             path: '/von2',
             name: 'vonExercice2',
             component: () => import('../views/exercices/vOnExercice2.vue')
+        },
+        {
+            path: '/vonBug',
+            name: 'vonBug',
+            component: () => import('../views/exercices/vonBug.vue')
+        },
+        {
+            path: '/watcher',
+            name: 'watcher',
+            component: () => import('../views/exercices/watcher.vue')
+        },
+
+        //Leçons
+        {
+            path: '/indexLesson',
+            name: 'indexLesson',
+            component: () => import('../views/lecon/indexLesson.vue')
+        },
+        {
+            path: '/watcherLesson',
+            name: 'watcherLesson',
+            component: () => import('../views/lecon/watcherLesson.vue')
         }
     ]
 });

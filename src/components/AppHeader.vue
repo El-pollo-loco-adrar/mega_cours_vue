@@ -15,7 +15,7 @@
           <a>Parent</a>
           <ul class="p-2">
             <li><router-link to="/indexExercice">Exercices</router-link></li>
-            <li><a>Leçons</a></li>
+            <li><router-link to="/indexLesson">Leçons</router-link></li>
             <li><a>TP</a></li>
           </ul>
         </li>
