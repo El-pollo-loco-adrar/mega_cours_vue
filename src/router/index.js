@@ -55,6 +55,11 @@ const router = createRouter({
             name: 'dynamicBinding',
             component: () => import('../views/exercices/dynamicBinding.vue')
         },
+        {
+            path: '/inputDynamic',
+            name: 'inputDynamic',
+            component: () => import('../views/exercices/inputDynamic.vue')
+        },
         //Leçons
         {
             path: '/indexLesson',
