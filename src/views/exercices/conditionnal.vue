@@ -17,10 +17,14 @@
 
         <!-- Tableau -->
         <div v-if="mesFilms.length > 0">
-            <h3 class="text-xl font-semibold mb-2">Votre film ajouté : </h3>
-            <ul class="list-disc pl-5">
-              <li v-for="(f, index) in mesFilms" :key="index">
-                Film {{ f }} numéro {{ index }}
+            <h3 class="text-xl text-center font-semibold mb-2">Votre film ajouté : </h3>
+            <ul class="pl-0 space-y-2 flex flex-col items-center">
+              <li 
+                v-for="(f, index) in mesFilms" 
+                :key="index" 
+                @click="supprimer(index)" 
+                class="text-center cursor-pointer px-3 py-2 border rounded-lg hover:bg-red-100 hover:text-red-500 transition min-w-40 ">
+                {{ f }}
               </li>
             </ul>
         </div>
@@ -44,6 +48,9 @@
       mesFilms.value.push(film.value.trim())
       film.value = ""
     }
+  }
+  function supprimer(index){
+    mesFilms.value.splice(index, 1)
   }
 </script>
 
