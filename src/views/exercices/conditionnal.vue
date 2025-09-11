@@ -20,7 +20,7 @@
             <h3 class="text-xl font-semibold mb-2">Votre film ajouté : </h3>
             <ul class="list-disc pl-5">
               <li v-for="(f, index) in mesFilms" :key="index">
-                {{ f }}
+                Film {{ f }} numéro {{ index }}
               </li>
             </ul>
         </div>
@@ -37,7 +37,7 @@
   import { ref } from 'vue';
 
   const film = ref('')
-  const mesFilms = ref ('')
+  const mesFilms = ref ([])
 
   function ajouter(){
     if (film.value.trim() !== ""){
