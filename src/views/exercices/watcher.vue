@@ -1,6 +1,16 @@
 <template>
-  <button @mousedown="increm" class="btn btn-outline btn-success">Cliquez bande de salope</button>
-  <h1>{{ count }}</h1>
+
+<div class="flex items-center justify-center">
+  <div class="card w-96 bg-base-100 card-lg shadow-sm">
+    <div class="card-body">
+      <h2 class="text-center font-bold text-lg w-full">Watcher</h2>
+      <button @mousedown="increm" class="btn btn-outline btn-success">Cliquez jusqu'à 7</button>
+      <h1 class="text-center">{{ count }}</h1>
+      <img src="https://media1.tenor.com/m/r1-xtl_tGbEAAAAd/cliquez-putaclic.gif" alt="cliquez">
+    </div>
+  </div>
+</div>
+
 </template>
 
 <script setup lang='js'>

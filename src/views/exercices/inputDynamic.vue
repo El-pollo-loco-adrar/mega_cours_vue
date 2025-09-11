@@ -6,11 +6,22 @@
   >
     <input 
       type="text" 
-      placeholder="Tape hello ou world" 
+      placeholder="Tape hello ou world ou patrick" 
       class="input input-neutral" 
       v-model="inputText" 
     />
-    <h2 :class="getClass(inputText)">{{ getText(inputText) }}</h2>
+    <!-- 1ERE VERSION -->
+    <!-- <h2 :class="getClass(inputText)">{{ getText(inputText) }}</h2> -->
+
+    <!-- 2E VERSION -->
+    <h2 v-if="inputText === 'hello' || inputText === 'world'" :class="getClass(inputText)">{{ getText(inputText) }}</h2>
+
+      <img 
+    v-else="inputText === 'patrick'"
+    src="https://media1.tenor.com/m/ye189ndlDpkAAAAC/patrick-sebastien-bravo.gif" 
+    alt="Patrick Sebastien" 
+    class="mt-4"
+  />
   </div>
   
   <div class="p-6 bg-blue-400 mt-4">
@@ -38,7 +49,7 @@
       return `T'as écris hello?`
     } else if (text === 'world'){
       return 'Bah hello world'
-    } else{
+    }else{
     return ''
     }
   }

@@ -60,6 +60,11 @@ const router = createRouter({
             name: 'inputDynamic',
             component: () => import('../views/exercices/inputDynamic.vue')
         },
+        {
+            path: '/conditionnal',
+            name: 'conditionnal',
+            component: () => import('../views/exercices/conditionnal.vue')
+        },
         //Leçons
         {
             path: '/indexLesson',
@@ -101,7 +106,11 @@ const router = createRouter({
             name: 'dynamic-styling',
             component: () => import('../views/lecon/dynamic-styling.vue')
         },
-
+        {
+            path: '/conditional-rendering',
+            name: 'conditional-rendering',
+            component: () => import('../views/lecon/conditional-rendering.vue')
+        },
         //TP
         {
             path: '/indexTp',

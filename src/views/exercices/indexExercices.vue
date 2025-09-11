@@ -7,6 +7,7 @@
     <router-link to="/watcher"><button class="btn btn-wide">watcher</button></router-link> 
     <router-link to="/dynamicBinding"><button class="btn btn-wide">Dynamic Binding</button></router-link> 
     <router-link to="/inputDynamic"><button class="btn btn-wide">Input Dynamic Binding</button></router-link> 
+    <router-link to="/conditionnal"><button class="btn btn-wide">Conditionnal</button></router-link> 
 </template>
 
 <script setup lang='js'>
