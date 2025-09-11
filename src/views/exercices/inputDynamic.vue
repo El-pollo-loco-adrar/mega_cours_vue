@@ -17,11 +17,12 @@
     <h2 v-if="inputText === 'hello' || inputText === 'world'" :class="getClass(inputText)">{{ getText(inputText) }}</h2>
 
       <img 
-    v-else="inputText === 'patrick'"
+    v-else-if="inputText === 'patrick'"
     src="https://media1.tenor.com/m/ye189ndlDpkAAAAC/patrick-sebastien-bravo.gif" 
     alt="Patrick Sebastien" 
     class="mt-4"
-  />
+    />
+    <div v-else></div>
   </div>
   
   <div class="p-6 bg-blue-400 mt-4">
