@@ -12,11 +12,11 @@
         
         <li><router-link to="/">Accueil</router-link></li>
         <li>
-          <a>Parent</a>
+          <a>VUE</a>
           <ul class="p-2">
             <li><router-link to="/indexExercice">Exercices</router-link></li>
             <li><router-link to="/indexLesson">Leçons</router-link></li>
-            <li><a>TP</a></li>
+            <li><router-link to="/indexTp">TP</router-link></li>
           </ul>
         </li>
         <li><router-link to="/about">about</router-link></li>
@@ -30,11 +30,11 @@
       <li><router-link to="/">Accueil</router-link></li>
       <li>
         <details>
-          <summary>Parent</summary>
+          <summary>VUE</summary>
           <ul class="p-2">
             <li><router-link to="/indexExercice">Exercices</router-link></li>
-            <li><a>Leçons</a></li>
-            <li><a>TP</a></li>
+            <li><router-link to="/indexLesson">Leçons</router-link></li>
+            <li><router-link to="/indexTp">TP</router-link></li>
           </ul>
         </details>
       </li>

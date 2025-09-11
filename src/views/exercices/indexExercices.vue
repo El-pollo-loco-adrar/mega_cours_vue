@@ -5,6 +5,7 @@
     <router-link to="/von2"><button class="btn btn-wide">v-on 2</button></router-link> 
     <router-link to="/vonBug"><button class="btn btn-wide">v-on à ne pas faire</button></router-link> 
     <router-link to="/watcher"><button class="btn btn-wide">watcher</button></router-link> 
+    <router-link to="/dynamicBinding"><button class="btn btn-wide">Dynamic Binding</button></router-link> 
 </template>
 
 <script setup lang='js'>

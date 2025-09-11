@@ -50,7 +50,11 @@ const router = createRouter({
             name: 'watcher',
             component: () => import('../views/exercices/watcher.vue')
         },
-
+        {
+            path: '/dynamicBinding',
+            name: 'dynamicBinding',
+            component: () => import('../views/exercices/dynamicBinding.vue')
+        },
         //Leçons
         {
             path: '/indexLesson',
@@ -91,6 +95,13 @@ const router = createRouter({
             path: '/dynamic-styling',
             name: 'dynamic-styling',
             component: () => import('../views/lecon/dynamic-styling.vue')
+        },
+
+        //TP
+        {
+            path: '/indexTp',
+            name: 'indexTp',
+            component: () => import('../views/tp/indexTp.vue')
         }
         ]
 });

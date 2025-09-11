@@ -1,12 +1,14 @@
 <template>
   <div>
-    <h1>TP 1</h1>
-    <input v-model="value" />
+    <h1 class="text-3xl">Les TP</h1> 
+    <RouterLink to="/inline-templating"><button class="btn btn-wide">Inline templating</button></RouterLink>
+    <RouterLink to="/attribute-binding"><button class="btn btn-wide">Attribute binding</button></RouterLink>
   </div>
 </template>
 
 <script setup lang='js'>
 import { computed, watch, onMounted, onUpdated, onBeforeUnmount } from 'vue'
+import { RouterLink } from 'vue-router';
 
 const props = defineProps({
   // v-model
