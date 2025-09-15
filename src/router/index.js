@@ -131,6 +131,16 @@ const router = createRouter({
             name: 'lifeCycle',
             component: () => import('../views/lecon/lifecycle.vue')
         },
+        {
+            path: '/props',
+            name: 'props',
+            component: () => import('../views/lecon/props.vue')
+        },
+        {
+            path: '/emit',
+            name: 'emit',
+            component: () => import('../views/lecon/emit.vue')
+        },
         //TP
         {
             path: '/indexTp',

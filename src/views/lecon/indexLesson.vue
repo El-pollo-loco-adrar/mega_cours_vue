@@ -9,6 +9,8 @@
   <RouterLink to="/dynamic-styling"><button class="btn btn-wide">Dynamic Styling</button></RouterLink>
   <RouterLink to="/conditional-rendering"><button class="btn btn-wide">Conditional rendering</button></RouterLink>
   <RouterLink to="/lifeCycle"><button class="btn btn-wide">Cycle de vie</button></RouterLink>
+  <RouterLink to="/props"><button class="btn btn-wide">Props</button></RouterLink>
+  <RouterLink to="/emit"><button class="btn btn-wide">Emit</button></RouterLink>
 
 </template>
 
