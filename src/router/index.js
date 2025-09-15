@@ -65,6 +65,21 @@ const router = createRouter({
             name: 'conditionnal',
             component: () => import('../views/exercices/conditionnal.vue')
         },
+        {
+            path: '/cycleDeVie',
+            name: 'cycleDeVie',
+            component: () => import('../views/exercices/cycleDeVie.vue')
+        },
+        {
+            path: '/cycleDeVieTs',
+            name: 'cycleDeVieTs',
+            component: () => import('../views/exercices/cycleDeVieTs.vue')
+        },
+        {
+            path: '/props',
+            name: 'props',
+            component: () => import('../views/exercices/props.vue')
+        },
         //Leçons
         {
             path: '/indexLesson',
@@ -110,6 +125,11 @@ const router = createRouter({
             path: '/conditional-rendering',
             name: 'conditional-rendering',
             component: () => import('../views/lecon/conditional-rendering.vue')
+        },
+        {
+            path: '/lifeCycle',
+            name: 'lifeCycle',
+            component: () => import('../views/lecon/lifecycle.vue')
         },
         //TP
         {

@@ -24,7 +24,7 @@
                 :key="index" 
                 @click="supprimer(index)" 
                 class="text-center cursor-pointer px-3 py-2 border rounded-lg hover:bg-red-100 hover:text-red-500 transition min-w-40 ">
-                {{ f }}
+                {{ index+1 }} - {{ f }}
               </li>
             </ul>
         </div>

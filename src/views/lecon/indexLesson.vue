@@ -8,6 +8,7 @@
   <RouterLink to="/watcherLesson"><button class="btn btn-wide">Watcher</button></RouterLink>
   <RouterLink to="/dynamic-styling"><button class="btn btn-wide">Dynamic Styling</button></RouterLink>
   <RouterLink to="/conditional-rendering"><button class="btn btn-wide">Conditional rendering</button></RouterLink>
+  <RouterLink to="/lifeCycle"><button class="btn btn-wide">Cycle de vie</button></RouterLink>
 
 </template>
 
