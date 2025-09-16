@@ -41,9 +41,6 @@
       <li><router-link to="/about">about</router-link></li>
     </ul>
   </div>
-  <div class="navbar-end">
-    <a class="btn">Button</a>
-  </div>
 </div>
   </div>
 </template>

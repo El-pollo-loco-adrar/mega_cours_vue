@@ -5,7 +5,6 @@
   <!-- <Test foo="on passe une PROPS pour FOO" username="On passe une props pour username"/>
     <Test foo="JOJO" username="le barjot"/>
     <Test foo="Steven" username="est gay !"/> -->
-    <FriendsList />
   <AppHeader />
 
     
@@ -21,8 +20,7 @@
 <script setup lang="js">
   import AppHeader from './components/AppHeader.vue';
   import AppFooter from './components/AppFooter.vue';
-  import Test from './components/Test.vue';
-  import FriendsList from './components/FriendsList.vue';
+  
 
 
 </script>

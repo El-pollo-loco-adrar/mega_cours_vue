@@ -76,8 +76,8 @@ const router = createRouter({
             component: () => import('../views/exercices/cycleDeVieTs.vue')
         },
         {
-            path: '/props',
-            name: 'props',
+            path: '/propsExo',
+            name: 'propsExo',
             component: () => import('../views/exercices/props.vue')
         },
         //Leçons
