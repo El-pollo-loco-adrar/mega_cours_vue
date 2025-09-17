@@ -1,8 +1,7 @@
 <template>
   <div>
     <h1 class="text-3xl">Les TP</h1> 
-    <RouterLink to="/inline-templating"><button class="btn btn-wide">Inline templating</button></RouterLink>
-    <RouterLink to="/attribute-binding"><button class="btn btn-wide">Attribute binding</button></RouterLink>
+    <RouterLink to="/tpEval"><button class="btn btn-wide">Eval 1</button></RouterLink>
   </div>
 </template>
 

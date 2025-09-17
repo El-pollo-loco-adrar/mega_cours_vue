@@ -146,6 +146,11 @@ const router = createRouter({
             path: '/indexTp',
             name: 'indexTp',
             component: () => import('../views/tp/indexTp.vue')
+        },
+        {
+            path: '/tpEval',
+            name: 'tpEval',
+            component: () => import('../views/tp/tpEval.vue')
         }
         ]
 });
