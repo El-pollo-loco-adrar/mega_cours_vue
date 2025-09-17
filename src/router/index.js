@@ -19,6 +19,11 @@ const router = createRouter({
             name: 'About',
             component: () => import('../views/About.vue')
         },
+        {
+            path: '/Chart',
+            name: 'Chart',
+            component: () => import('../components/BarChartsDemo.vue')
+        },
         //Exercices
         {
             path: '/indexExercice',
@@ -140,6 +145,11 @@ const router = createRouter({
             path: '/emit',
             name: 'emit',
             component: () => import('../views/lecon/emit.vue')
+        },
+        {
+            path: '/pinia',
+            name: 'pinia',
+            component: () => import('../views/lecon/pinia.vue')
         },
         //TP
         {

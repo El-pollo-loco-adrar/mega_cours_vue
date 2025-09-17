@@ -11,6 +11,7 @@
   <RouterLink to="/lifeCycle"><button class="btn btn-wide">Cycle de vie</button></RouterLink>
   <RouterLink to="/props"><button class="btn btn-wide">Props</button></RouterLink>
   <RouterLink to="/emit"><button class="btn btn-wide">Emit</button></RouterLink>
+  <RouterLink to="/pinia"><button class="btn btn-wide">Pinia</button></RouterLink>
 
 </template>
 

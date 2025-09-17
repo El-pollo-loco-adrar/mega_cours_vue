@@ -7,7 +7,7 @@
 </template>
 
 <script setup lang='js'>
-import { computed, watch, onMounted, onUpdated, onBeforeUnmount } from 'vue'
+import { computed, watch, onMounted, onUpdated, onBeforeUnmount, defineProps } from 'vue'
 
 defineProps({
     user: {

@@ -20,6 +20,7 @@
           </ul>
         </li>
         <li><router-link to="/about">about</router-link></li>
+        <li><router-link to="/Chart">Chart JS</router-link></li>
       </ul>
     </div>
     <router-link to="/" class="btn btn-ghost text-xl">Mon site de fou</router-link>
@@ -39,6 +40,7 @@
         </details>
       </li>
       <li><router-link to="/about">about</router-link></li>
+      <li><router-link to="/Chart">Chart JS</router-link></li>
     </ul>
   </div>
 </div>
